@@ -1,5 +1,21 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+  padding-top: 51px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
 .nav_second{
-margin-top:50px;
 margin-right: -15px;
 margin-left: -15px;
 margin-bottom:-20px;
@@ -75,12 +91,7 @@ background-color: #7D7D7D;
 	margin-top: 4rem;
 }
 .header-logo{
-	
+
 	padding-left: 6rem;
 
 }
-.con{
-	margin-top: 4rem;
-}
-
-
