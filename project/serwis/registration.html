@@ -6,35 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="http://nazwa-serwisu.pl/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/custom.css"> 
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
 	<link rel="stylesheet" type="text/css" href="css/signin.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css"> <!--style w custom.css -->
 </head>
-<body>
-<nav class="navbar navbar-fixed-top header-logo">
+<body class="signin">
+<nav class="navbar">
+  <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="index.html"><span class="fa fa-shopping-basket" aria-hidden="true"></span> Ogłoszenia on-line</a>
         </div>
+  </div>
 </nav>
-<div class="con">
-      
+<div class="container login-form">
       <form class="form-signin">
-        <h2>Dołącz do nas !</h2><br>
-		<label for="text" class="sr-only">Imię</label>
-        <input type="text" class="form-control form1" placeholder="Imię" required >
-		<label for="text" class="sr-only">Nazwisko</label>
-		<input type="text" class="form-control form1" placeholder="Nazwisko" required >
-        <label for="text" class="sr-only">Login</label>
-        <input type="text" class="form-control form1" placeholder="Login" required>
-		<label for="inputEmail" class="sr-only">E-mail</label>
-		<input type="text" id="inputEmail" class="form-control form1" placeholder="E-mail">
-		<label for="inputNumber" class="sr-only">Nr telefonu</label>
-		<input type="text" id="inputNumber" class="form-control form1" placeholder="Nr telefonu">
-        <label for="inputPassword" class="sr-only">Hasło</label>
-        <input type="password" id="inputPassword" class="form-control form1" placeholder="Hasło" required>
-		<label for="inputPassword" class="sr-only">Powtórz hasło</label>
-        <input type="password" id="inputPassword" class="form-control form1" placeholder="Powtórz hasło" required>
-		
+
+        <legend>Dołącz do nas!</legend>
+
+        <div class="form-group">
+          <label for="login" class="sr-only">Login</label>
+          <div class="input-group">
+            <span class="input-group-addon"><span class="fa fa-user"></span></span>
+            <input type="text" class="form-control form1" id="login" placeholder="Login" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email" class="sr-only">E-mail</label>
+          <div class="input-group">
+            <span class="input-group-addon"><span class="fa fa-envelope"></span></span>
+            <input type="email" class="form-control form1" id="email" placeholder="E-mail" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="name" class="sr-only">Imię i nazwisko</label>
+          <div class="input-group">
+            <span class="input-group-addon"><span class="fa fa-id-badge"></span></span>
+            <input type="text" class="form-control form1" id="name" placeholder="Imię i nazwisko" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="phone" class="sr-only">Nr telefonu</label>
+          <div class="input-group">
+            <span class="input-group-addon"><span class="fa fa-phone"></span></span>
+            <input type="text" class="form-control form1" id="phone" placeholder="Nr telefonu" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="password" class="sr-only">Hasło</label>
+          <div class="input-group">
+            <span class="input-group-addon"><span class="fa fa-unlock-alt"></span></span>
+            <input type="password" class="form-control form1" id="password" placeholder="Hasło" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="password2" class="sr-only">Powtórz hasło</label>
+          <div class="input-group">
+            <span class="input-group-addon"><span class="fa fa-unlock-alt"></span></span>
+            <input type="password" class="form-control form1" id="password2" placeholder="Powtórz hasło" required>
+          </div>
+        </div>
+
         <button class="btn btn-lg btn-primary btn-block maine" type="submit">Rejestracja</button>
 
       </form>
@@ -42,13 +78,13 @@
      <!-- /container -->
 </div>
 
- 
+
 
 
 <footer class="footer">
 	<p>Copyright &copy; 2017 Jadwiga Legutko - projekt z przedmiotu system interakcyjny</p>
 	</footer>
-	
+
     <script src="http://code.jquery.com/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
