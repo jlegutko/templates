@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Ogłoszenia on-line</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css"> <!--moje style w custom.css -->
+	<link rel="stylesheet" type="text/css" href="css/custom2.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar" aria-hidden="true"></span>
+            <span class="icon-bar" aria-hidden="true"></span>
+            <span class="icon-bar" aria-hidden="true"></span>
+          </button>
+          <a class="navbar-brand" href="login-index.html"><span class="fa fa-shopping-basket" aria-hidden="true"></span> Ogłoszenia on-line</a>
+        </div>
+		<div id="navbar" class="collapse navbar-collapse navbar-right">
+		 <a class="navbar-brand" href="index.html"><span class="fa fa-sign-out" aria-hidden="true"></span> Wyloguj</a>
+        </div><!--/.nav-collapse -->
+		 <div id="navbar" class="collapse navbar-collapse navbar-right ">
+		 <a class="navbar-brand" href="profile.html"><span class="fa fa-user" aria-hidden="true"></span> Mój profil</a>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://select2.github.io/dist/css/select2.min.css" rel="stylesheet">
+<script src="https://select2.github.io/dist/js/select2.full.js"></script>
+
+<div class="container co">
+<div class="row inbox">
+	<div class="col-md-3">
+		<div class="panel panel-default">
+			<div class="panel-body inbox-menu">						
+				<div class="wow1">
+					WIADOMOŚCI
+				</div>
+				<ul>
+					<li>
+						<a href="messages.html"><span class="fa fa-envelope wo"></span>Konwersacje<span class="label label-danger">4</span></a>
+					</li>
+					<li>
+						<a href="trash.html"><span class="fa fa-trash-o wo"></span>Kosz</a>
+					</li>
+				</ul>
+			</div>	
+		</div>
+		
+		<div class="panel panel-default">
+			<div class="panel-body contacts">
+				<div class="wow1">
+					KONTAKTY
+				</div>
+				<ul>
+					<li>
+						<a href="#" ><span class="fa fa-user wo"></span> Adam Alister</a>
+					</li>
+					<li>
+						<a href="#" ><span class="fa fa-user wo"></span> Alphonse Ivo</a>
+					</li>
+					<li>
+						<a href="#" ><span class="fa fa-user wo"></span> Anton Phunihel</a>
+					</li>
+				</ul>
+			
+			</div>
+		
+		</div>			
+		
+	</div><!--/.col-->
+	
+	<div class="col-md-9">
+		<div class="row">
+			<div class="col-sm-4 col-md-4">
+				<div class="panel panel-default mess">
+					<div class="panel-body mess"> 		
+						<form class="form-horizontal" role="form">
+							<div class="form-group">
+								<label for="to" class="col-sm-1 control-label">Do:</label>
+									<div class="col-sm-11">
+										<input type="email" class="form-control select2-offscreen" id="to" placeholder="Login/e-mail użytkownika" tabindex="-1">
+									</div>
+							</div>
+						<form accept-charset="UTF-8" action="" method="POST">
+						<div class="form-group">
+						    <label for="cc" class="col-sm-1 control-label">Treść:</label>
+								<div class="col-sm-11">
+									<textarea class="form-control counted" name="message" rows="5" style="margin-bottom:10px;"></textarea>
+								</div>
+						</div>
+							<button class="btn btn-info bt" type="submit">Wyślij</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+				        </form>
+								
+			</div>	
+		</div>	
+	</div><!--/.col-->		
+</div>
+</div>
