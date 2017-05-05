@@ -554,17 +554,15 @@ opacity:0.9;
 .progress-meter > .meter.meter-right > .meter-text {
 	text-align: right;
 }
-.list{
-	margin-top: 2rem;
+                           
+/**** resume ****/
+.cont{
+	margin-top: 3rem;
 }
 .pan{
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
-.cont{
-	margin-top: 3rem;
+.wow{
+	padding-right: 1rem;
 }
-
-    
-                        
-/**** resume ****/
